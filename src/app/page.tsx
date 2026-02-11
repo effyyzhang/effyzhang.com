@@ -13,7 +13,7 @@ export default function Home() {
     <TooltipProvider delayDuration={200}>
       <div className="min-h-screen px-6 pt-12 sm:px-32 sm:pt-16">
         <main className="flex flex-col items-start gap-4">
-          <p className="text-lg font-medium tracking-tight">
+          <p className="text-base tracking-tight">
             Effy Zhang, builder at{" "}
             <Tooltip>
               <TooltipTrigger asChild>

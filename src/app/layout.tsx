@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { DM_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const dmMono = DM_Mono({
-  weight: ["300", "400", "500"],
-  subsets: ["latin"],
-  variable: "--font-dm-mono",
+const brunswickGrotesque = localFont({
+  src: "../fonts/BrunswickGrotesque-Regular.otf",
+  variable: "--font-brunswick",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={dmMono.variable} suppressHydrationWarning>
+    <html lang="en" className={brunswickGrotesque.variable} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -27,7 +27,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${dmMono.className} antialiased`}>
+      <body className={`${brunswickGrotesque.className} antialiased`}>
         {children}
       </body>
     </html>
