@@ -7,6 +7,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
   --font-sans: var(--font-brunswick);
   --font-mono: var(--font-brunswick);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -50,7 +52,9 @@
 :root {
   --radius: 0.625rem;
   --background: #f5f0e8;
-  --foreground: oklch(0.145 0 0);
+  --foreground: #111;
+  --text-primary: #111;
+  --text-secondary: #888;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -60,7 +64,7 @@
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  --muted-foreground: #888;
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
@@ -85,6 +89,8 @@
 .dark {
   --background: #1a1a1a;
   --foreground: oklch(0.985 0 0);
+  --text-primary: #eee;
+  --text-secondary: #888;
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);

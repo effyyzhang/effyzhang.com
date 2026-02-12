@@ -21,7 +21,7 @@ export default function Home() {
                   href="https://claude.ai"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-black dark:decoration-zinc-600 dark:hover:decoration-white"
+                  className="underline decoration-text-secondary underline-offset-2 transition-colors hover:decoration-text-primary"
                 >
                   Anthropic
                 </a>
@@ -49,7 +49,7 @@ export default function Home() {
                   href="https://block.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline decoration-zinc-300 underline-offset-2 transition-colors hover:decoration-black dark:decoration-zinc-600 dark:hover:decoration-white"
+                  className="underline decoration-text-secondary underline-offset-2 transition-colors hover:decoration-text-primary"
                 >
                   Block
                 </a>
@@ -63,7 +63,7 @@ export default function Home() {
               href="https://x.com/effyyzhang"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-400 transition-colors hover:text-black dark:text-zinc-500 dark:hover:text-white"
+              className="text-text-secondary transition-colors hover:text-text-primary"
               aria-label="Twitter"
             >
               <XLogo size={18} />
@@ -72,7 +72,7 @@ export default function Home() {
               href="https://github.com/effyyzhang"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-400 transition-colors hover:text-black dark:text-zinc-500 dark:hover:text-white"
+              className="text-text-secondary transition-colors hover:text-text-primary"
               aria-label="GitHub"
             >
               <GithubLogo size={18} />
@@ -81,14 +81,14 @@ export default function Home() {
               href="https://linkedin.com/in/effyz"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-400 transition-colors hover:text-black dark:text-zinc-500 dark:hover:text-white"
+              className="text-text-secondary transition-colors hover:text-text-primary"
               aria-label="LinkedIn"
             >
               <LinkedinLogo size={18} />
             </a>
             <a
               href="mailto:effyyzhang@gmail.com"
-              className="text-zinc-400 transition-colors hover:text-black dark:text-zinc-500 dark:hover:text-white"
+              className="text-text-secondary transition-colors hover:text-text-primary"
               aria-label="Email"
             >
               <EnvelopeSimple size={18} />
